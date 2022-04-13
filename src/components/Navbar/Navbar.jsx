@@ -32,16 +32,14 @@ const Navbar = () => {
         </a>
 
         <ul className='navbar-links'>
-          {links.map((link, index, external) => {
+          {links.map((link, index) => {
             return (
               <li key={index}>
-                {external && (
+                {link.external ? (
                   <a className='text-color' href={link.url} target='_blank' rel='noreferrer'>
                     {link.text}
                   </a>
-                )}
-
-                {!external && (
+                ) : (
                   <a className='text-color' href={link.url}>
                     {link.text}
                   </a>
