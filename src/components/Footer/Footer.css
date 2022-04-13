@@ -1,0 +1,13 @@
+.footer {
+  color: #fff;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.footer .socials a {
+  color: #fff;
+}

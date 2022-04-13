@@ -1,0 +1,17 @@
+.section-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.section-header h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-header h2 span {
+  margin-left: 5px;
+}

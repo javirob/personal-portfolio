@@ -1,0 +1,20 @@
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials li {
+  margin: 0 7px;
+}
+
+.socials li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: var(--transition);
+}
+
+.socials li a:hover {
+  transform: scale(1.2);
+}

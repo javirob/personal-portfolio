@@ -1,0 +1,32 @@
+.hero-content,
+.hero-img {
+  flex: 1;
+}
+
+.hero p {
+  width: 70%;
+}
+
+.hero-img {
+  max-width: 500px;
+  margin-left: 2rem;
+}
+
+.hero-img img {
+  width: 100%;
+}
+
+.hero-content .btn {
+  margin-top: 1.5rem;
+}
+
+@media (max-width: 770px) {
+  .hero-content {
+    text-align: center;
+  }
+
+  .hero p {
+    margin: 0 auto;
+    width: 80%;
+  }
+}
