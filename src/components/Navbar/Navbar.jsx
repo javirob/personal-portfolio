@@ -32,12 +32,20 @@ const Navbar = () => {
         </a>
 
         <ul className='navbar-links'>
-          {links.map((link, index) => {
+          {links.map((link, index, external) => {
             return (
               <li key={index}>
-                <a className='text-color' href={link.url}>
-                  {link.text}
-                </a>
+                {external && (
+                  <a className='text-color' href={link.url} target='_blank' rel='noreferrer'>
+                    {link.text}
+                  </a>
+                )}
+
+                {!external && (
+                  <a className='text-color' href={link.url}>
+                    {link.text}
+                  </a>
+                )}
               </li>
             );
           })}
