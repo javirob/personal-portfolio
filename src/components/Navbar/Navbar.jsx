@@ -62,7 +62,7 @@ const Navbar = () => {
           {links.map((link, index) => {
             return (
               <li key={index}>
-                <a href={link.url} className='text-color'>
+                <a href={link.url} className='text-color' onClick={() => setMobileMenu(false)}>
                   {link.text}
                 </a>
               </li>
