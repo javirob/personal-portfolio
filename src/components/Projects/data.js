@@ -2,6 +2,7 @@ import project1 from '../../assets/project-1.jpg';
 import project2 from '../../assets/project-2.png';
 import project3 from '../../assets/project-3.png';
 import project4 from '../../assets/project-4.png';
+import project5 from '../../assets/project-5.jpg';
 
 const projectsData = [
   {
@@ -35,6 +36,14 @@ const projectsData = [
     desc: ['Todo App', 'React 18', 'React Router 6', 'Hooks'],
     siteUrl: 'https://javi-todo-app.netlify.app/',
     githubUrl: 'https://github.com/javirob/react18-todo-app',
+  },
+  {
+    id: 'p05',
+    img: project5,
+    title: 'Movie Search App',
+    desc: ['React 18', 'React Router 6', 'Tailwind', 'DaisyUI'],
+    siteUrl: 'https://javi-movie-search-api.netlify.app/',
+    githubUrl: 'https://github.com/javirob/movie-search',
   },
 ];
 
