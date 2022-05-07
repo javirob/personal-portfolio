@@ -3,6 +3,7 @@ import project2 from '../../assets/project-2.png';
 import project3 from '../../assets/project-3.png';
 import project4 from '../../assets/project-4.png';
 import project5 from '../../assets/project-5.jpg';
+import project6 from '../../assets/project-6.jpg';
 
 const projectsData = [
   {
@@ -44,6 +45,14 @@ const projectsData = [
     desc: ['React 18', 'React Router 6', 'Tailwind', 'DaisyUI'],
     siteUrl: 'https://javi-movie-search-api.netlify.app/',
     githubUrl: 'https://github.com/javirob/movie-search',
+  },
+  {
+    id: 'p06',
+    img: project6,
+    title: 'News Paper Landing Page - React Tailwind',
+    desc: ['React 18', 'Tailwind', 'React-Icons', 'Hooks'],
+    siteUrl: 'https://app.netlify.com/sites/news-site-tailwind-react',
+    githubUrl: 'https://github.com/javirob/journal-news',
   },
 ];
 
