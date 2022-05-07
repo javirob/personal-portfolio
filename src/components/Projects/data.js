@@ -51,7 +51,7 @@ const projectsData = [
     img: project6,
     title: 'The Journal News',
     desc: ['News Paper Landing Page', 'React', 'Tailwind', 'React-Icons'],
-    siteUrl: 'https://app.netlify.com/sites/news-site-tailwind-react',
+    siteUrl: 'https://news-site-tailwind-react.netlify.app/',
     githubUrl: 'https://github.com/javirob/journal-news',
   },
 ];
