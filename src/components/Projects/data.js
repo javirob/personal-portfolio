@@ -4,6 +4,7 @@ import project3 from '../../assets/project-3.png';
 import project4 from '../../assets/project-4.png';
 import project5 from '../../assets/project-5.jpg';
 import project6 from '../../assets/project-6.jpg';
+import project7 from '../../assets/project-7.jpg';
 
 const projectsData = [
   {
@@ -53,6 +54,14 @@ const projectsData = [
     desc: ['News Paper Landing Page', 'React', 'Tailwind', 'React-Icons'],
     siteUrl: 'https://news-site-tailwind-react.netlify.app/',
     githubUrl: 'https://github.com/javirob/journal-news',
+  },
+  {
+    id: 'p07',
+    img: project7,
+    title: 'Social Media App',
+    desc: ['Social Media Landing Page', 'React 18', 'MUI5'],
+    siteUrl: 'https://ework-social-media-app.netlify.app/',
+    githubUrl: 'https://github.com/javirob/social-media-app',
   },
 ];
 
