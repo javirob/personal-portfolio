@@ -60,8 +60,8 @@ const projectsData = [
     img: project7,
     title: 'Social Media App',
     desc: ['Social Media Landing Page', 'React 18', 'MUI5'],
-    siteUrl: 'https://ework-social-media-app.netlify.app/',
-    githubUrl: 'https://github.com/javirob/social-media-app',
+    siteUrl: 'https://professional-social-media-app.netlify.app/',
+    githubUrl: 'https://github.com/javirob/jobs-social-media',
   },
 ];
 
