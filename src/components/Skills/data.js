@@ -1,7 +1,7 @@
 export const skillsList = [
   {
     title: 'Tools',
-    items: ['GIT', 'NPM', 'Chrome Dev Tools', 'VS Code'],
+    items: ['GIT', 'Github', 'NPM', 'Chrome Dev Tools', 'VS Code'],
   },
   {
     title: 'HTML & CSS',
@@ -9,17 +9,20 @@ export const skillsList = [
   },
   {
     title: 'JavaScript',
-    items: ['DOM', 'Async JS', 'Fetch API'],
+    items: ['DOM', 'Async JS', 'Fetch API', 'Frameworks'],
   },
   {
     title: 'CSS Frameworks',
-    items: ['Bootstrap, Tailwind'],
+    items: ['Bootstrap', 'TailwindCSS'],
   },
   {
     title: 'ReactJS',
-    items: ['JSX', 'Hooks', 'React Router', 'Context API', 'Redux', 'MaterialUI/MUI'],
+    items: ['JSX', 'Hooks', 'React Router', 'Context API', 'React Redux', 'Material UI'],
   },
-  { title: 'Static Site Generators', items: ['Gatsby', 'Next'] },
+  {
+    title: 'Static Site Generators',
+    items: ['Gatsby.js', 'Next.js'],
+  },
   {
     title: 'Deployment',
     items: ['Netlify', 'Vercel'],
