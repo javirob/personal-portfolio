@@ -12,12 +12,16 @@ export const skillsList = [
     items: ['DOM', 'Async JS', 'Fetch API'],
   },
   {
-    title: 'ReactJS',
-    items: ['JSX', 'Hooks', 'React Router', 'Context API', 'Redux'],
+    title: 'CSS Frameworks',
+    items: ['Bootstrap, Tailwind'],
   },
-  { title: 'Static Site Generators', items: ['Gatsby'] },
+  {
+    title: 'ReactJS',
+    items: ['JSX', 'Hooks', 'React Router', 'Context API', 'Redux', 'MaterialUI/MUI'],
+  },
+  { title: 'Static Site Generators', items: ['Gatsby', 'Next'] },
   {
     title: 'Deployment',
-    items: ['Netlify'],
+    items: ['Netlify', 'Vercel'],
   },
 ];
